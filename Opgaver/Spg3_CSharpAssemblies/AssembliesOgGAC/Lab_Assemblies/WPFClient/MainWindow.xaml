@@ -1,0 +1,23 @@
+﻿<Window x:Class="WPFClient.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WPFClient"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid Margin="40">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="auto"></ColumnDefinition>
+            <ColumnDefinition Width="auto"></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="auto"></RowDefinition>
+            <RowDefinition Height="auto"></RowDefinition>
+        </Grid.RowDefinitions>
+        <Label Grid.Row="0" Grid.Column="0" Content="Enter your Danish CPR number"/>
+        <TextBox Name="txtBoxCpr" Margin="20,0,0,0" Grid.Row="0" Grid.Column="1" Width="150" TextChanged="TextBoxBase_OnTextChanged"></TextBox>
+        <Button Margin="0,20,0,0" Grid.Row="1" Grid.Column="0" Height="30" Width="100" Content="Validate" Click="ButtonBase_OnClick"/>
+        <TextBlock Grid.Row="1" Margin="20,15,0,0" Name="txtBlErrorMsg" Grid.Column="1" Width="150" Height="25"></TextBlock>
+    </Grid>
+</Window>
