@@ -11,7 +11,6 @@ namespace AppUtilImp_1
 {
     // så klasserne bruger samme IAppUtil så man ikke instantierer flere forskellige
     [Export(typeof(IAppUtil))]
-    //[PartCreationPolicy(CreationPolicy.NonShared)]
     public class AppUtilImp : IAppUtil
     {
         public  string Name { get; set; }

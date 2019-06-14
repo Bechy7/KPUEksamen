@@ -13,7 +13,6 @@ namespace PlugInn_2
     [Export(typeof(IDllContract))]
     public class PlugInn2 : IDllContract
     {
-        //[Import(typeof(IAppUtil))]
         IAppUtil appUtil;
 
         public void Init(IAppUtil util)
