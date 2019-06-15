@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>Useful.StringLibrary</id>
+    <version>1</version>
+    <title>StringLibrary</title>
+    <authors>Fatima Kodro</authors>
+    <owners>Fatima Kodro</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Can do some stuff with strings</description>
+    <releaseNotes>THIS IS VERY NEW AND USEFUL.</releaseNotes>
+    <copyright>Copyright Kodro</copyright>
+    <tags>string</tags>
+  </metadata>
+</package>
